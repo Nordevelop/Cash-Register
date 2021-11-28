@@ -23,7 +23,6 @@ public class Deliver {
 	public int assign_Prize()
 	{
 		return this.prize;
-		
 	}
 	public int assign_Quantity()
 	{

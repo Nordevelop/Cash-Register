@@ -6,33 +6,31 @@ public class Deliver {
     *@Author Nordevelop
     *Cash Register
     */ 
-    
-	private int id;              
+     	private int id;              
 	private String description;
 	private int prize;
 	private int quantity;
 	private int subtotal;
   //private String nombre_cliente;
-  
-	
-	
-	public int darId()
+        public int assign_Id()
 	{
 		return this.id;
 	}
-	public String darDescripcion()  //metodo 
+	public String assign_Description()  //metodo 
 	{
-		return this.descripcion;
+		return this.description;
 	}
-	public int darPrecio()
+	public int assign_Prize()
 	{
-		return this.precio;
+		return this.prize;
 		
 	}
-	public int darCantidad()
+	public int assign_Quantity()
 	{
-		return this.cantidad;
+		return this.quantity;
 	}
-	public int darSubtotal()
+	public int assign_Subtotal()
 	{
-		return 
+		return this.subtotal;
+	}
+}

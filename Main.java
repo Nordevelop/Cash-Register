@@ -39,18 +39,18 @@ public class Main {
 			 	   /*Add values entered x keyboard.- 
 				   *-in their respective objects of the class
 				   */
-				  cla.Input_Id(id);    
-			          cla.Input_Description(description);                     
-			          cla.Input_Prize(prize);
-			          cla.Input_Quantify(quantify);
+				  cla.input_Id(id);    
+			          cla.input_Description(description);                     
+			          cla.input_Prize(prize);
+			          cla.input_Quantify(quantify);
 			          subtotal = prize * quantity;
-			          cla.ponerSubtotal(subtotal);
+			          cla.input_Subtotal(subtotal);
 			          List.add(cla); // input data into off Array de objects
 			            System.out.println("Enter an ID or zero to end: ");
 		 		     id=enter.nextInt();
 				          total= total +subtotal;
 			   for (Registro c:Lista) //For each
-			   System.out.println("ID off product: "+"||"+ c.Assign_Id()+"||"+"description off product: " + c.Assign_Description()+  "||"+ "price off product: "+ c.Assign_Prize()+"$"+"||"+"Quantify: "+c.Assign_Qantify()+"||"+"Subtotal:"+c.Assign_Subtotal());
+			   System.out.println("ID off product: "+"||"+ c.assign_Id()+"||"+"description off product: " + c.assign_Description()+  "||"+ "price off product: "+ c.assign_Prize()+"$"+"||"+"Quantify: "+c.assign_Qantify()+"||"+"Subtotal:"+c.assign_Subtotal());
 		   
 		   System.out.println("********************************************************************************************************************************************************************************************************************");
 		   System.out.println(" Total a Cash is: "+total+"$");	   

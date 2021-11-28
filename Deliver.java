@@ -11,7 +11,6 @@ public class Deliver {
 	private int prize;
 	private int quantity;
 	private int subtotal;
-  //private String nombre_cliente;
         public int assign_Id()
 	{
 		return this.id;
@@ -32,4 +31,36 @@ public class Deliver {
 	{
 		return this.subtotal;
 	}
+	public void input_Id(int e)
+	{
+		this.id=e;
+	}
+	public void input_Description(String f)
+	{
+		this.descripcion=f;
+	}
+	public void input_Prize(int g)
+	{
+		this.precio=g;
+	}
+	public void input_Quantity(int h)
+	{
+		this.quantity=h;
+	}
+	public void input_Subtotal(int m)
+	{
+		this.subtotal=m;
+	
+	public Deliver (int e, String f, int g, int h, int m) //Builder Clas
+	{ 
+		/*objects  with allowed access i Class Main()
+		*
+		*/
+		this.id=e;
+		this.descripcion=f;
+		this.precio=g;
+		this.cantidad=h;
+		this.subtotal=m;
+	}// End Builder Class
 }
+		

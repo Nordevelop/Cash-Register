@@ -51,15 +51,15 @@ public class Deliver {
 	{
 		this.subtotal=m;
 	
-	public Deliver (int e, String f, int g, int h, int m) //Builder Clas
+	public Deliver (int e, String f, int g, int h, int m) //Builder Class
 	{ 
 		/*objects  with allowed access i Class Main()
 		*
 		*/
 		this.id=e;
-		this.descripcion=f;
-		this.precio=g;
-		this.cantidad=h;
+		this.description=f;
+		this.prize=g;
+		this.quantity=h;
 		this.subtotal=m;
 	}// End Builder Class
 }

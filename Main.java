@@ -49,7 +49,7 @@ public class Main {
 			            System.out.println("Enter an ID or zero to end: ");
 		 		     id=enter.nextInt();
 				          total= total +subtotal;
-			   for (Registro c:Lista) //For each
+			   for (Registro c:List) //For each
 			   System.out.println("ID off product: "+"||"+ c.assign_Id()+"||"+"description off product: " + c.assign_Description()+  "||"+ "price off product: "+ c.assign_Prize()+"$"+"||"+"Quantify: "+c.assign_Qantify()+"||"+"Subtotal:"+c.assign_Subtotal());
 		   
 		   System.out.println("********************************************************************************************************************************************************************************************************************");

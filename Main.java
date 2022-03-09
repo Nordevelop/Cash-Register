@@ -2,6 +2,7 @@ import java.util.InputMismatchException;
 /*
  *  exception to add numbers as char
  */
+import java.util.Arraylist;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Main {
 		/*
 		 * author Nordevelop
 		 * program Cash register
-		 * class Main, deliver,admin
+		 * class Main, deliver
 		 */
 		Scanner enter = new Scanner (System.in); //capture buffer of keyboard
 		Deliver cla= null; //Class Deliver

@@ -11,11 +11,14 @@ public class Deliver {
 	private int prize;
 	private int quantity;
 	private int subtotal;
+	/*
+	*Mrthods
+	*/
         public int assign_Id()
 	{
 		return this.id;
 	}
-	public String assign_Description()  //metodo 
+	public String assign_Description()  
 	{
 		return this.description;
 	}
@@ -56,11 +59,11 @@ public class Deliver {
 		/*objects  with allowed access i Class Main()
 		*
 		*/
-		this.id=e;
+		this.id=e;          //objects = parameters
 		this.description=f;
 		this.prize=g;
 		this.quantity=h;
 		this.subtotal=m;
 	}// End Builder Class
-}
+}//end class Deliver
 		
